@@ -50,7 +50,8 @@ while(count > 0 and wrongcount != 7):
     already__guess = ', '.join(alreadyguess)
     print(f'Already Guess Character: {already__guess}')
 if(wrongcount == 7):
-   print('Game Over 😢 \n')   
+   print('Game Over 😢 \n')  
+   print(f'Exact Word is: {chosen_word}') 
 if(count == 0):
   initialString = ' '.join(initial)
   print(f'''
